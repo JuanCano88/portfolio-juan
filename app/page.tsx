@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import { projects } from '@/data/projects';
 import Footer from '@/components/Footer';
 import FadeUp from '@/components/FadeUp';
@@ -19,7 +19,7 @@ const stagger = {
   animate: { transition: { staggerChildren: 0.08 } },
 };
 
-const fadeItem = {
+const fadeItem: Variants = {
   initial: { opacity: 0, y: 24 },
   animate: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.21, 0.47, 0.32, 0.98] } },
 };
