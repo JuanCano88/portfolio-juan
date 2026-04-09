@@ -223,6 +223,7 @@
   border-radius: 4px;
   cursor: pointer;
   transition: background 0.15s;
+  text-decoration: none;
 }
 
 .contactBtn:hover {

@@ -53,19 +53,22 @@ export default function HomePage() {
       <section className={styles.bioRow}>
         <FadeUp delay={0}>
           <p className={styles.bioLabel}>// SOBRE MÍ</p>
-          <p className={styles.bioText}>
-            Empecé en el diseño y me enamoré del código. Hoy vivo en la
-            intersección entre ambos mundos como{' '}
-            <strong>UX Developer freelance</strong>: construyo interfaces que
-            son tan sólidas por dentro como hermosas por fuera.
+          <p className={styles.bioText}>Empecé en el diseño y descubrí que el código es la pieza
+            que convierte buenas ideas en soluciones reales. Soy 
+            <strong> UX Developer</strong> y estoy especializado en diseñar
+            e implementar interfaces que equilibran funcionalidad, 
+            elegancia y solidez técnica para proyectos exigentes.
           </p>
         </FadeUp>
         <FadeUp delay={0.1}>
           <p className={styles.bioLabel}>// ENFOQUE</p>
-          <p className={styles.bioText}>
-            WordPress avanzado, WooCommerce, React y Next.js. Cada proyecto
-            es <strong>artesanía digital</strong>: atención milimétrica al
-            detalle, código limpio, y experiencias que la gente recuerda.
+          <p className={styles.bioText}>Desarrollo con WordPress avanzado, WooCommerce,
+            React y Next.js, pensando siempre en el usuario y
+            en el negocio. Cada proyecto es un ejercicio de
+            <strong>artesanía digital:</strong> estructura limpia,
+            microinteracciones cuidadas y una experiencia final
+            que refuerza la posición de marca y genera resultados
+            medibles.
           </p>
         </FadeUp>
       </section>

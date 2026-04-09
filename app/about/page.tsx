@@ -6,6 +6,7 @@ import FadeUp from '@/components/FadeUp';
 import DotHero from '@/components/DotHero';
 import { about } from '@/data/about';
 import Image from 'next/image';
+import ContactBtn from '@/components/ContactBtn';
 
 const timeline = [
   {
@@ -129,7 +130,7 @@ export default function AboutPage() {
             <p className={styles.contactLabel}>// ¿HABLAMOS?</p>
             <p className={styles.contactEmail}>jac.arnaiz@gmail.com</p>
           </div>
-          <div className={styles.contactBtn}>contactar →</div>
+            <ContactBtn />
         </div>
       </div>
 

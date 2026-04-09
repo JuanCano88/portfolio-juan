@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import styles from './Nav.module.css';
+import ContactBtn from '@/components/ContactBtn';
 
 export default function Nav() {
   const pathname = usePathname();
@@ -31,9 +32,7 @@ export default function Nav() {
         ))}
       </div>
 
-      <div className={styles.cta}>
-        hire me
-      </div>
+      <ContactBtn href="/about" label="contact" />
     </nav>
   );
 }
