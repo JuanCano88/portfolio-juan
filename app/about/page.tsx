@@ -127,7 +127,7 @@ export default function AboutPage() {
         <div className={styles.contactCard}>
           <div>
             <p className={styles.contactLabel}>// ¿HABLAMOS?</p>
-            <p className={styles.contactEmail}>hola@juan-cano.com</p>
+            <p className={styles.contactEmail}>jac.arnaiz@gmail.com</p>
           </div>
           <div className={styles.contactBtn}>contactar →</div>
         </div>
