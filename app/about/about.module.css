@@ -1,0 +1,308 @@
+.hero {
+  border-bottom: 1px solid var(--border);
+}
+
+.heroInner {
+  padding: 56px 32px 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+}
+
+.title {
+  font-family: var(--display);
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  margin-bottom: 16px;
+}
+
+.bio {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: rgba(240, 240, 238, 0.72);
+  line-height: 1.85;
+  font-weight: 300;
+}
+
+.bio strong {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.avatarWrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.avatar {
+  width: 100%;
+  max-width: 260px;
+  aspect-ratio: 1;
+  background: var(--bg3);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--muted);
+}
+
+/* Skills */
+.skillsSection {
+  padding: 48px 32px;
+  border-bottom: 1px solid var(--border);
+}
+
+.sectionLabel {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--muted);
+  letter-spacing: 0.2em;
+  margin-bottom: 28px;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.skillRow {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.skillMeta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skillName {
+  font-family: var(--display);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.skillPct {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--muted);
+}
+
+.skillBar {
+  height: 2px;
+  background: var(--border2);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.skillFill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 2px;
+}
+
+/* Timeline */
+.timelineSection {
+  padding: 48px 32px;
+  border-bottom: 1px solid var(--border);
+}
+
+.timelineLabelTop {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--muted);
+  letter-spacing: 0.2em;
+  margin-bottom: 36px;
+}
+
+.tlItem {
+  display: grid;
+  grid-template-columns: 110px 1px 1fr;
+  gap: 24px;
+}
+
+.tlItemSpaced {
+  padding-bottom: 32px;
+}
+
+.tlYear {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--muted);
+  padding-top: 3px;
+  text-align: right;
+}
+
+.tlLineCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tlDot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+
+.tlVert {
+  flex: 1;
+  width: 1px;
+  background: var(--border);
+  margin-top: 8px;
+}
+
+.tlRole {
+  font-family: var(--display);
+  font-size: 15px;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.tlCompany {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--accent);
+  margin-bottom: 8px;
+  letter-spacing: 0.1em;
+}
+
+.tlDesc {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.7;
+  font-weight: 300;
+}
+
+/* Contacto */
+.contactSection {
+  padding: 48px 32px;
+}
+
+.contactCard {
+  padding: 28px 32px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg2);
+}
+
+.contactLabel {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--muted);
+  letter-spacing: 0.1em;
+  margin-bottom: 7px;
+}
+
+.contactEmail {
+  font-family: var(--display);
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.contactBtn {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  background: var(--accent);
+  color: var(--bg);
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.contactBtn:hover {
+  background: var(--accent2);
+}
+
+/* ── Tablet ── */
+@media (max-width: 768px) {
+  .heroInner {
+    grid-template-columns: 1fr;
+    gap: 36px;
+    padding: 40px 24px 36px;
+  }
+
+  .avatarWrap {
+    justify-content: flex-start;
+  }
+
+  .skillsSection {
+    padding: 40px 24px;
+  }
+
+  .skillsGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .timelineSection {
+    padding: 40px 24px;
+  }
+
+  .tlItem {
+    grid-template-columns: 80px 1px 1fr;
+    gap: 16px;
+  }
+
+  .contactSection {
+    padding: 40px 24px;
+  }
+
+  .contactCard {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 24px;
+  }
+}
+
+/* ── Móvil ── */
+@media (max-width: 480px) {
+  .heroInner {
+    padding: 32px 20px 28px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .skillsSection {
+    padding: 32px 20px;
+  }
+
+  .timelineSection {
+    padding: 32px 20px;
+  }
+
+  .tlItem {
+    grid-template-columns: 70px 1px 1fr;
+    gap: 12px;
+  }
+
+  .tlRole {
+    font-size: 13px;
+  }
+
+  .contactSection {
+    padding: 32px 20px;
+  }
+
+  .contactEmail {
+    font-size: 16px;
+  }
+}
