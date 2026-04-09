@@ -10,6 +10,7 @@ export type Project = {
   solution: string;
   type: string;
   image?: string;
+  url?: string; 
 };
 
 export type Skill = {

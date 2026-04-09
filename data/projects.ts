@@ -13,6 +13,7 @@ export const projects: Project[] = [
     solution: 'Arquitectura de plugins propios desde cero: cursor custom con LERP, efectos de scroll con GSAP/ScrollTrigger, selector de tallas con chips, y sistema de animaciones en home.',
     type: 'E-commerce custom · WordPress',
     image: '/images/polloskate.jpg',
+    url: 'https://www.polloskate.com',
   },
   {
     id: 'cywareness',

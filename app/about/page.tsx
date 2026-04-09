@@ -9,29 +9,35 @@ import Image from 'next/image';
 
 const timeline = [
   {
-    year: '2022 →',
-    role: 'UX Developer Freelance',
-    company: 'AUTÓNOMO',
-    desc: 'WordPress avanzado, WooCommerce, plugins custom, React/Next.js. Clientes directos en España y Europa.',
+    year: '2020 →',
+    role: 'UX Developer',
+    company: 'CyberproAi',
+    desc: 'WordPress avanzado, plugins custom, React/Next.js. Clientes directos nacionales e internacionales.',
   },
   {
-    year: '2019–2022',
-    role: 'Frontend Developer',
-    company: 'AGENCIA · BILBAO',
+    year: '2017–2026',
+    role: 'Freelance',
+    company: 'MADRID · BILBAO',
     desc: 'Proyectos web para clientes corporativos. WordPress, SCSS, JavaScript, APIs.',
   },
   {
-    year: '2015–2019',
-    role: 'UI / UX Designer',
-    company: 'DISEÑO DIGITAL',
-    desc: 'Interfaces, identidades corporativas y experiencia de usuario.',
+    year: '2016-2019',
+    role: 'Web Developer',
+    company: 'UVE',
+    desc: 'Interfaces, campañas estacionales, landing pages campañas de email marketing para Leroy Merlin y Totota',
   },
   {
-    year: '→ 2015',
-    role: 'Diseño Gráfico & Comunicación Visual',
-    company: 'FORMACIÓN',
-    desc: 'Base en diseño, tipografía, composición y comunicación visual.',
+    year: '2014–2016',
+    role: 'Diseño Gráfico & Desarrollo Web',
+    company: 'Balthazar Comunicación',
+    desc: 'Realización de Artes Finales y Comunicaciones Web para Carrefour, GoodYear y Latam Airlines',
   },
+  {
+    year: '→ 2012',
+    role: 'Diseño Gráfico & Web',
+    company: 'Thalentia',
+    desc: 'Base en diseño, Flash, HTML, CSS y Jquery. Diseño y realización de cursos e-Learning',
+  },  
 ];
 
 function highlightText(text: string, highlights: string[]) {

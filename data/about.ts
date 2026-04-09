@@ -1,7 +1,7 @@
 export const about = {
-  intro: `Empecé diseñando. Identidades, interfaces, experiencias. Pero siempre me preguntaba cómo funcionaba todo por dentro.
+  intro: `Empecé diseñando identidades, interfaces y experiencias. Pero siempre me preguntaba cómo funcionaba todo por dentro.
 
-Así que aprendí a programarlo. Primero HTML y CSS. Luego JavaScript, PHP, WordPress. Ahora React y Next.js. Hoy soy UX Developer freelance viviendo en Bizkaia.
+Así que aprendí a programarlo. Primero HTML y CSS. Luego JavaScript, PHP, WordPress. Ahora React y Next.js. Hoy soy UX Developer resido en Bizkaia.
 
 Trabajo mejor en proyectos donde importa tanto el cómo funciona como el cómo se ve.`,
   introHighlights: [

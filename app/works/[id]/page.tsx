@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import FadeUp from '@/components/FadeUp';
 import styles from './detail.module.css';
 import DotHero from '@/components/DotHero';
+import CtaLink from '@/components/CtaLink';
 
 export function generateStaticParams() {
   return projects.map(p => ({ id: p.id }));
@@ -36,7 +37,10 @@ export default async function ProjectDetailPage({ params }: Props) {
               <h1 className={styles.title}>{project.title}</h1>
             </FadeUp>
             <FadeUp delay={0.16}>
-              <p className={styles.desc}>{project.desc}</p>
+              <>
+                <p className={styles.desc}>{project.desc}</p>
+                  {project.url && <CtaLink url={project.url} />}
+              </>
             </FadeUp>
           </div>
           <FadeUp delay={0.24}>
