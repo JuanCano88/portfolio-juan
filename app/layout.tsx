@@ -6,7 +6,7 @@ import CustomCursor from '@/components/CustomCursor';
 
 export const metadata: Metadata = {
   title: 'Juan Cano · UX Developer',
-  description: 'Portfolio de Juan Cano, UX Developer en Bilbao. WordPress avanzado, WooCommerce, React y Next.js.',
+ description: 'Portfolio of Juan Cano, UX Developer based in Bilbao. Advanced WordPress, WooCommerce, React and Next.js.',
   keywords: ['UX Developer', 'Freelance', 'WordPress', 'React', 'Next.js', 'Bilbao'],
   authors: [{ name: 'Juan Cano' }],
   creator: 'Juan Cano',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     locale: 'es_ES',
     url: 'https://juan-cano.com',
     title: 'Juan Cano · UX Developer',
-    description: 'Del diseño al código. UX Developer freelance ubicado en Bilbao.',
+    description: 'From design to code. Freelance UX Developer based in Bilbao.',
     siteName: 'Juan Cano',
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Juan Cano · UX Developer',
-    description: 'Del diseño al código. UX Developer freelance ubicado en Bilbao.',
+    description: 'From design to code. Freelance UX Developer based in Bilbao.',
     images: ['/og-image.png'],
   },
 };
