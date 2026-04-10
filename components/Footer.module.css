@@ -29,6 +29,7 @@
   cursor: pointer;
   letter-spacing: 0.05em;
   transition: color 0.15s;
+  text-decoration: none;
 }
 
 .link:hover {

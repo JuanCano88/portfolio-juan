@@ -10,11 +10,14 @@ export default function Footer() {
         <span className={styles.accent}>All rights reserved</span>
       </span>
       <div className={styles.links}>
-        {['github', 'linkedin', 'contacto'].map(link => (
-          <span key={link} className={styles.link}>
-            {link}
-          </span>
-        ))}
+          {[
+            { label: 'linkedin', href: 'https://www.linkedin.com/in/juan-cano-arnaiz/' },
+            { label: 'contact', href: 'mailto:jac.arnaiz@gmail.com' },
+          ].map(({ label, href }) => (
+            <a key={label} href={href} target="_blank" rel="noopener noreferrer" className={styles.link}>
+              {label}
+            </a>
+          ))}
       </div>
     </footer>
   );
