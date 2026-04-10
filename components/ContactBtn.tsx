@@ -8,7 +8,7 @@ type Props = {
   label?: string;
 };
 
-export default function ContactBtn({ href = 'mailto:hola@juan-cano.com', label = 'contactar →' }: Props) {
+export default function ContactBtn({ href = 'mailto:hola@juan-cano.com', label = 'contact →' }: Props) {
   return (
     <motion.a
       href={href}

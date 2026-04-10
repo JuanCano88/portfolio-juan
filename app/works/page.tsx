@@ -17,8 +17,8 @@ const FILTERS: { value: Filter; label: string }[] = [
   { value: 'all',       label: 'all' },
   { value: 'ecommerce', label: 'ecommerce' },
   { value: 'corporate', label: 'corporate' },
-  { value: 'app',       label: 'app / producto' },
-  { value: 'ux',        label: 'ux & diseño' },
+  { value: 'app',       label: 'app / product' },
+  { value: 'ux',        label: 'ux & design' },
 ];
 
 const cardVariants = {

@@ -18,7 +18,7 @@ export default function CtaLink({ url }: Props) {
       whileTap={{ scale: 0.96 }}
       transition={{ duration: 0.2, ease: [0.21, 0.47, 0.32, 0.98] }}
     >
-      ver proyecto en vivo →
+      view live project →
     </motion.a>
   );
 }

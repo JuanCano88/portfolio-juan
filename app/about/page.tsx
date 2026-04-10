@@ -13,31 +13,31 @@ const timeline = [
     year: '2020 →',
     role: 'UX Developer',
     company: 'CyberproAi',
-    desc: 'WordPress avanzado, plugins custom, React/Next.js. Clientes directos nacionales e internacionales.',
+    desc: 'Advanced WordPress, custom plugins, React/Next.js. Direct clients, both national and international.',
   },
   {
     year: '2017–2026',
     role: 'Freelance',
     company: 'MADRID · BILBAO',
-    desc: 'Proyectos web para clientes corporativos. WordPress, SCSS, JavaScript, APIs.',
+    desc: 'Web projects for corporate clients. WordPress, SCSS, JavaScript, APIs.',
   },
   {
     year: '2016-2019',
     role: 'Web Developer',
     company: 'UVE',
-    desc: 'Interfaces, campañas estacionales, landing pages campañas de email marketing para Leroy Merlin y Totota',
+    desc: 'Interfaces, seasonal campaigns, landing pages, and email marketing campaigns for Leroy Merlin and Toyota.',
   },
   {
     year: '2014–2016',
-    role: 'Diseño Gráfico & Desarrollo Web',
+    role: 'Graphic Design & Web Development',
     company: 'Balthazar Comunicación',
-    desc: 'Realización de Artes Finales y Comunicaciones Web para Carrefour, GoodYear y Latam Airlines',
+    desc: 'Final artwork production and web communications for Carrefour, Goodyear, and LATAM Airlines.',
   },
   {
     year: '→ 2012',
-    role: 'Diseño Gráfico & Web',
+    role: 'Graphic & Web Design',
     company: 'Thalentia',
-    desc: 'Base en diseño, Flash, HTML, CSS y Jquery. Diseño y realización de cursos e-Learning',
+    desc: 'Foundation in design, Flash, HTML, CSS, and jQuery. Design and development of e-learning courses.',
   },  
 ];
 
@@ -104,7 +104,7 @@ export default function AboutPage() {
 
       {/* Timeline */}
       <section className={styles.timelineSection}>
-        <p className={styles.timelineLabelTop}>// TRAYECTORIA</p>
+        <p className={styles.timelineLabelTop}>// CAREER PATH</p>
         {timeline.map((item, i) => (
           <FadeUp key={i} delay={i * 0.12}>
             <div className={`${styles.tlItem} ${i < timeline.length - 1 ? styles.tlItemSpaced : ''}`}>
@@ -127,7 +127,7 @@ export default function AboutPage() {
       <div className={styles.contactSection}>
         <div className={styles.contactCard}>
           <div>
-            <p className={styles.contactLabel}>// ¿HABLAMOS?</p>
+            <p className={styles.contactLabel}>// SHALL WE TALK?</p>
             <p className={styles.contactEmail}>jac.arnaiz@gmail.com</p>
           </div>
             <ContactBtn />

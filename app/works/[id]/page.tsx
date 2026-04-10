@@ -23,7 +23,7 @@ export default async function ProjectDetailPage({ params }: Props) {
   return (
     <>
       <Link href="/works" className={styles.back}>
-        ← volver a works
+        ← back to works
       </Link>
 
       {/* Hero */}
@@ -46,9 +46,9 @@ export default async function ProjectDetailPage({ params }: Props) {
           <FadeUp delay={0.24}>
             <div className={styles.metaGrid}>
               {[
-                { label: '// AÑO',  value: project.year },
-                { label: '// TIPO', value: project.type },
-                { label: '// ROL',  value: 'UX Developer · Diseño + Código' },
+                { label: '// YEAR', value: project.year },
+                { label: '// TYPE', value: project.type },
+                { label: '// ROLE', value: 'UX Developer · Design + Code' },
               ].map(m => (
                 <div key={m.label}>
                   <p className={styles.metaLabel}>{m.label}</p>
@@ -82,24 +82,24 @@ export default async function ProjectDetailPage({ params }: Props) {
       <div className={styles.body}>
         <div>
           <FadeUp>
-            <p className={styles.sectionLabel}>// EL RETO</p>
+            <p className={styles.sectionLabel}>// THE CHALLENGE</p>
             <p className={styles.text}>{project.challenge}</p>
           </FadeUp>
           <FadeUp delay={0.1}>
-            <p className={styles.sectionLabel}>// LA SOLUCIÓN</p>
+            <p className={styles.sectionLabel}>// THE SOLUTION</p>
             <p className={styles.text}>{project.solution}</p>
           </FadeUp>
         </div>
         <div>
           <FadeUp delay={0.2}>
             <div className={styles.sideCard}>
-              <p className={styles.sectionLabel}>// STACK TÉCNICO</p>
+              <p className={styles.sectionLabel}>// TECH STACK</p>
               {project.tags.map(t => (
                 <span key={t} className={styles.techPill}>{t}</span>
               ))}
             </div>
             <div className={styles.sideCard}>
-              <p className={styles.sectionLabel}>// TIPO</p>
+              <p className={styles.sectionLabel}>// TYPE</p>
               <p className={styles.sideType}>{project.type}</p>
             </div>
           </FadeUp>

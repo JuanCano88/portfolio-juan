@@ -43,8 +43,8 @@ export default function HomePage() {
             Juan <span className={styles.heroAccent}>Cano</span>
           </motion.h1>
           <motion.div variants={fadeItem} className={styles.subtitleRow}>
-            <h2 className={styles.heroSubtitle}>código</h2>
-            <span className={styles.heroTag}>→ y diseño</span>
+            <h2 className={styles.heroSubtitle}>code</h2>
+            <span className={styles.heroTag}>→ and design</span>
           </motion.div>
         </motion.div>
       </DotHero>
@@ -52,23 +52,22 @@ export default function HomePage() {
       {/* Bio */}
       <section className={styles.bioRow}>
         <FadeUp delay={0}>
-          <p className={styles.bioLabel}>// SOBRE MÍ</p>
-          <p className={styles.bioText}>Empecé en el diseño y descubrí que el código es la pieza
-            que convierte buenas ideas en soluciones reales. Soy 
-            <strong> UX Developer</strong> y estoy especializado en diseñar
-            e implementar interfaces que equilibran funcionalidad, 
-            elegancia y solidez técnica para proyectos exigentes.
+          <p className={styles.bioLabel}>// ABOUT ME</p>
+          <p className={styles.bioText}>I started in design and discovered that code
+            is the piece that turns good ideas into real solutions. I am a 
+            <strong> UX Developer,</strong> specialized in designing and implementing
+            interfaces that balance functionality, elegance, and technical robustness 
+            for demanding projects.
           </p>
         </FadeUp>
         <FadeUp delay={0.1}>
-          <p className={styles.bioLabel}>// ENFOQUE</p>
-          <p className={styles.bioText}>Desarrollo con WordPress avanzado, WooCommerce,
-            React y Next.js, pensando siempre en el usuario y
-            en el negocio. Cada proyecto es un ejercicio de
-            <strong>artesanía digital:</strong> estructura limpia,
-            microinteracciones cuidadas y una experiencia final
-            que refuerza la posición de marca y genera resultados
-            medibles.
+          <p className={styles.bioLabel}>// APPROACH</p>
+          <p className={styles.bioText}>Advanced development with WordPress, WooCommerce,
+            React, and Next.js, always with the user and the business in mind.
+            Each project is an exercise in <strong>digital craftsmanship:
+              </strong> clean structure, carefully crafted microinteractions,
+              and a final experience that strengthens brand positioning and
+              delivers measurable results.
           </p>
         </FadeUp>
       </section>
@@ -76,9 +75,9 @@ export default function HomePage() {
       {/* Stats */}
       <section className={styles.stats}>
         {[
-          { num: '10+', label: 'AÑOS DE EXPERIENCIA' },
-          { num: '60+', label: 'PROYECTOS ENTREGADOS' },
-          { num: '2×',  label: 'PERFILES EN UNO' },
+          { num: '10+', label: 'YEARS OF EXPERIENCE' },
+          { num: '60+', label: 'PROJECTS DELIVERED' },
+          { num: '2×',  label: 'TWO SKILLSETS IN ONE' },
         ].map((s, i) => (
           <FadeUp key={i} delay={i * 0.1}>
             <div className={styles.statItem}>
@@ -108,7 +107,7 @@ export default function HomePage() {
       <section className={styles.selected}>
         <FadeUp>
           <div className={styles.selectedHeader}>
-            <span className={styles.selectedLabel}>// PROYECTOS SELECCIONADOS</span>
+            <span className={styles.selectedLabel}>// SELECTED PROJECTS</span>
             <Link href="/works" className={styles.selectedAction}>ver todos →</Link>
           </div>
         </FadeUp>
@@ -139,7 +138,7 @@ export default function HomePage() {
                   </div>
                   <h3 className={styles.scTitle}>{p.title}</h3>
                   <p className={styles.scDesc}>{p.desc}</p>
-                  <div className={styles.scArrow}>ver proyecto →</div>
+                  <div className={styles.scArrow}>view proyect →</div>
                 </div>
 
               </Link>

@@ -1,17 +1,19 @@
 export const about = {
-  intro: `Empecé creando identidades, interfaces y experiencias pensadas para conectar con las personas. Pero siempre me intrigaba saber cómo funcionaba todo por dentro, así que me adentré en el código.
+  intro: `I started by creating identities, interfaces, and experiences designed to connect with people. But I was always curious about how everything worked under the hood, so I moved into code.
 
-Desde entonces he ido profundizando: primero con HTML y CSS, después con JavaScript y PHP, la especialización en WordPress y, ahora, con React y Next.js.
-Hoy soy UX Developer con base en Bizkaia, donde combino diseño, experiencia del usuario y desarrollo para construir productos coherentes y funcionales.
+Since then, I’ve kept evolving: starting with HTML and CSS, then JavaScript and PHP, specializing in WordPress, and now working with React and Next.js.
 
-Trabajo especialmente bien en proyectos donde importa tanto el cómo funciona como el cómo se ve: donde el código no es un detalle, sino parte esencial de la experiencia.`,
-  introHighlights: [
-    'diseñando',
-    'React y Next.js',
-    'UX Developer freelance',
-    'cómo funciona',
-    'cómo se ve',
-  ],
+Today I’m a UX Developer based in Bizkaia, where I combine design, user experience, and development to build coherent and functional products.
+
+I work especially well on projects where both how it works and how it looks truly matter — where code is not just a detail, but an essential part of the experience.`,
+
+introHighlights: [
+  'designing',
+  'React and Next.js',
+  'freelance UX Developer',
+  'how it works',
+  'how it looks',
+],
   avatar: '/images/avatar01.jpg',
   email: 'hola@juan-cano.com',
 };
