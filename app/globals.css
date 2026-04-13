@@ -84,3 +84,9 @@ body {
   background: var(--accent);
   color: var(--bg);
 }
+
+@media (pointer: fine) {
+  *, *::before, *::after {
+    cursor: none !important;
+  }
+}

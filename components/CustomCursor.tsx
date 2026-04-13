@@ -20,6 +20,7 @@ export default function CustomCursor() {
   const yDot = useSpring(rawY, { stiffness: 1000, damping: 40 });
 
   useEffect(() => {
+    if (window.matchMedia('(pointer: coarse)').matches) return;
     setMounted(true);
 
     function onMove(e: MouseEvent) {
