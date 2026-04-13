@@ -3,6 +3,7 @@ import './globals.css';
 import Nav from '@/components/Nav';
 import PageTransition from '@/components/PageTransition';
 import CustomCursor from '@/components/CustomCursor';
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: 'Juan Cano · UX Developer',
@@ -42,12 +43,14 @@ export default function RootLayout({
   return (
     <html lang="es">
       <CustomCursor />
-      <body>
-        <Nav />
-        <PageTransition>
-          <main>{children}</main>
-        </PageTransition>
-      </body>
+        <body>
+          <CustomCursor />
+          <Nav />
+          <PageTransition>
+            <main>{children}</main>
+          </PageTransition>
+          <Analytics />
+        </body>
     </html>
   );
 }
