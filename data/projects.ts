@@ -15,6 +15,7 @@ export const projects: Project[] = [
     image: '/images/polloskate.jpg',
     url: 'https://www.polloskate.com',
   },
+  /*
   {
     id: 'cywareness',
     cat: 'CORPORATE',
@@ -41,7 +42,7 @@ export const projects: Project[] = [
     type: 'Corporate · Multilingual',
     image: '/images/cyberproai.jpg',
   }  
-/*
+
   {
     id: 'portfolio',
     cat: 'UX & DESIGN',
